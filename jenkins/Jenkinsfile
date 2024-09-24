@@ -5,7 +5,7 @@ pipeline {
             args '-v /root/.m2:/root/.m2'
         }
         tools {
-            jdk ‘java-8.0.292’
+            jdk 'java-8.0.292'
         }
     }
     stages {
